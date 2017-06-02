@@ -1,0 +1,192 @@
+@font-face {
+  font-family: AvenirNextLTPro-Regular;
+  src: url(fonts/AvenirNextLTPro-Regular.otf);
+}
+
+.container-fluid {
+  height: 100vh;
+  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  overflow:scroll;
+  font-family: AvenirNextLTPro-Regular;
+  padding: 0;
+  position: relative;
+}
+
+#trackBin {
+  font-family: AvenirNextLTPro-Regular;
+  padding-top: 100px;
+  font-size: 80px;
+  color: #3C0055;
+}
+
+.btns {
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  background-color: #2A2B20;
+  font-size: 25px;
+  color: white;
+  outline: none;
+
+}
+
+.btns:hover {
+  opacity: 0.75;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  background-color: #2A2B20;
+  font-size: 25px;
+  color: white;
+  outline: none;
+
+}
+
+
+#top {
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #898A7A;
+}
+
+#col1 {
+  text-align: center;
+  height: 600px;
+}
+
+#col2 {
+  text-align: center;
+  height: 600px;
+  float: right;
+}
+
+
+#col2Inner {
+position: absolute;
+width: 50%;
+height:85.6%;
+background-image: url("resources/track.jpg");
+background-size: 600px;
+opacity: 0.5;
+
+}
+
+
+.covers{
+  margin: 0px,auto;
+}
+
+#track {
+  height: 85.5vh;
+  width: 48.7vw;
+  /*background-image: url("resources/track.jpg");
+  background-size: 600px;
+  opacity: 0.5;*/
+
+}
+
+#bottom {
+  height: 50px;
+  background-color: #555647;
+  vertical-align: bottom;
+
+}
+
+.bottomCont {
+  position:sticky;
+  bottom:7px;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  text-indent: 50px;
+}
+
+
+.albumImg{
+  height:200px;
+  width:200px;
+  display: list-item;
+  float: right;
+
+}
+
+#arty{
+  padding-right: 100px;
+  height: 30px;
+  width: 30px;
+
+}
+
+#arty img{
+ height: 200px;
+  width: 200px;
+  padding-top: 19.5px;
+  padding-bottom: 20px;
+margin-left: 185px;
+}
+
+/*
+------------------------------Playlist Page-------------------------------------
+*/
+
+#top2 {
+  height: 150px;
+  background-color: #898A7A;
+}
+
+#top2Content {
+  position:absolute;
+  top: 110px;
+  text-indent: 50px;
+  font-size: 25px;
+  color: white;
+}
+
+#midTop {
+  height: 150px;
+  background-color: white;
+}
+
+#midTop img{
+  height: 100px;
+   width: 100px;
+   margin-left: 130px;
+   margin-top: 20px;
+
+}
+
+#midBot {
+  text-align: center;
+  height: 350px;
+  background-color: white;
+}
+
+#bottom2 {
+  height: 50px;
+  background-color: #898A7A;
+}
+
+#textBox {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EAEAEA;
+  top: 20px;
+  outline: none;
+}
+
+#clrBtn{
+  position:absolute;
+  left: 100px;
+
+ }
+
+ #subBtn{
+   position:absolute;
+   left: 450px;
+  }

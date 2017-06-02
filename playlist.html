@@ -4,10 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
   <script type="text/javascript" src="script.js" defer></script>
 
@@ -15,7 +12,6 @@
 
 
   <!-- Latest compiled and minified CSS -->
-
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Optional theme -->
@@ -26,48 +22,45 @@
 
 
 
-  <title>Track Bin</title>
+  <title>Choose Tracks</title>
 </head>
 
 <body>
 
   <div class="container-fluid">
 
-    <div id="top" class="row">
+    <div id="top2" class="row">
+      <div class="row-md-12">
+
+        <p id="top2Content">
+          click an album to add its tracks to the bin
+        </p>
+      </div>
+
+    </div>
+    <div id="midTop" class="row">
       <div class="row-md-12"></div>
+
+
+    </div>
+    <div id="midBot" class="row">
+      <div class="row-md-12">
+        <textarea id="textBox" rows="10" cols="150"></textarea><br/><br />
+
+        <button class="btns" id="clrBtn" type="button" name="button">clear tracks</button>
+
+        <button class="btns" id="subBtn" type="button" name="button">submit bin</button>
+
+      </div>
 
     </div>
 
-    <div id="col1">
-      <div class="col-md-6">
-        <p id="trackBin">track bin</p>
-
-        <a href="playlist.html"><button class="btns" type="button" name="button">choose tracks</button></a>
-      </div>
-
-      <div id="col2">
-        <div id = "col2Inner"></div>
-
-        <div class = "covers">
-
+    <footer>
+      <div id="bottom" class="row">
+        <div class="row-md-12">
+          <p class="bottomCont">© 2017 Vinnii Otchkov</p>
         </div>
-        <div id = "track" class="col-md-6">
-          <div id = "arty">
-
-
-          </div>
-        </div>
-      </div>
-
-
-
-      </div>
-      <footer>
-        <div id="bottom" class="row">
-          <div class="row-md-12">
-            <p class="bottomCont">© 2017 Vinnii Otchkov</p>
-          </div>
-      </footer>
+    </footer>
 
     </div>
 
